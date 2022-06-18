@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26102023285DD3FF00F28A4B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26102022285DD3FF00F28A4B /* CardView.swift */; };
+		26102025285DDAAB00F28A4B /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26102024285DDAAB00F28A4B /* TrailingIconLabelStyle.swift */; };
 		26A42D83285D03C90007E108 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A42D82285D03C90007E108 /* ScrumdingerApp.swift */; };
 		26A42D85285D03C90007E108 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A42D84285D03C90007E108 /* MeetingView.swift */; };
 		26A42D8A285D03CA0007E108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A42D89285D03CA0007E108 /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		26102022285DD3FF00F28A4B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		26102024285DDAAB00F28A4B /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		26A42D7F285D03C90007E108 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A42D82285D03C90007E108 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		26A42D84285D03C90007E108 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				26A42D82285D03C90007E108 /* ScrumdingerApp.swift */,
 				26A42D84285D03C90007E108 /* MeetingView.swift */,
 				26102022285DD3FF00F28A4B /* CardView.swift */,
+				26102024285DDAAB00F28A4B /* TrailingIconLabelStyle.swift */,
 				26A42D88285D03CA0007E108 /* Preview Content */,
 			);
 			path = Scrumdinger;
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AA06E8285D2A6900BE993F /* DailyScrum.swift in Sources */,
+				26102025285DDAAB00F28A4B /* TrailingIconLabelStyle.swift in Sources */,
 				26AA06E2285D27D400BE993F /* Theme.swift in Sources */,
 				26A42D85285D03C90007E108 /* MeetingView.swift in Sources */,
 				26A42D83285D03C90007E108 /* ScrumdingerApp.swift in Sources */,

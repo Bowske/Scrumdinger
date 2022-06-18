@@ -32,7 +32,7 @@ enum Theme: String {
             }
     }
     
-    var mainColo: Color{
+    var mainColor: Color{
         Color(rawValue)
     }
 }

@@ -15,7 +15,6 @@ struct ThemePicker: View {
             ForEach(Theme.allCases) { theme in
                 ThemeView(theme: theme)
                     .tag(theme)
-
             }
         }
     }

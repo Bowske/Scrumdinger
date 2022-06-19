@@ -11,8 +11,8 @@ struct MeetingView: View {
     var body: some View {
         VStack {
             ProgressView(value: 5, total: 15)
-            HStack{
-                VStack(alignment: .leading){
+            HStack {
+                VStack(alignment: .leading) {
                     Text("Seconds Elapsed").font(.caption)
                     Label("300", systemImage: "hourglass.bottomhalf.fill")
                 }
@@ -26,7 +26,7 @@ struct MeetingView: View {
             HStack {
                 Text("Speaker 1 of 3")
                 Spacer()
-                Button(action: {}){
+                Button(action: { }) {
                     Image(systemName: "forward.fill")
                 }.accessibilityLabel("Next speaker")
             }
